@@ -1,0 +1,393 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.head{
+    position: fixed;
+    height: 70px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 1000;
+}
+
+.nav-head{
+    color: rgb(57, 57, 138);
+    font-size: 22px;
+    font-weight: 100;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+nav a{
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 13px;
+    font-weight: 100;
+    color: rgb(87, 84, 84);
+}
+
+nav a:hover{
+    color: #104e85;
+}
+
+.building{
+    height: 100vh;
+    background-image: url("build.jpg");
+    background-size: cover;
+}
+
+.company-name{
+    width: 40%;
+    background-color: rgba(16, 93, 238,0.5);
+    height: 100%;
+    /* opacity: 0.5; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.name1{
+    width: 250px;
+    font-size: 42px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    opacity: 1;
+}
+.name2{
+    width: 250px;
+    font-size: 42px;
+    color: white;
+    font-weight: 100;
+    opacity: 1;
+}
+.name3{
+    width: 250px;
+    font-size: 20px;
+    color: white;
+    margin-top: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    opacity: 1;
+}
+
+#practice_area{
+    height: 100vh;
+    display: flex;
+}
+
+.area{
+    width: 40%;
+    background-color: rgba(190, 208, 243, 0.5);
+    height: 100%;
+    /* opacity: 0.5; */
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+}  
+
+.p-n{
+    margin-top: 65px;
+    width: 250px;
+    font-size: 42px;
+    color: rgb(3, 3, 99);
+}
+
+.p-a{
+    width: 250px;
+    font-weight: 100;
+    font-size: 38px;
+    color: rgb(42, 42, 109);
+}
+
+.data{
+    height: 100%;
+    margin-top: 30px; 
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.list-data{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-self: center;
+}
+
+.list-data li{
+    margin-top: 30px;
+    list-style-type: square;
+    font-size: 22px;
+    color: rgb(35, 35, 158);
+}
+
+li::marker{
+    color: hsl(207, 87%, 63%);
+    font-size: 30px;
+}
+
+.list-data p{
+    width: 70%;
+    margin-top: 20px;
+    font-size: 17px;
+    color: rgb(107, 107, 247);
+}
+
+#our_vision{
+    background-color: #00305B;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#our_vision h2{
+    font-size: 42px;
+    margin-top: 130px;
+    margin-bottom: 50px;
+    color: white;
+}
+
+#our_vision p{
+    margin-top: 50px;
+    width: 70%;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.team{
+    height: 100vh;
+    background-image: url(team.jpg);
+    background-size: cover;
+}
+
+.team div{
+    height: 100%;
+    background-color: rgba(139, 139, 230, 0.1);;
+}
+
+hr{
+    width: 100%;
+    margin: 30px;
+}
+
+#attorneys{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #EAF4F6;
+}
+
+#attorneys h2{
+    color: #00305B;
+    font-weight: 100;
+    font-size: 42px;
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+
+.profile{
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+}
+
+.card h3{
+    color: #00305B;
+    font-weight: 100;
+    margin-top: 28px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card h4{
+    color: #104e85;
+    font-weight: 100;
+    margin-top: 7px;
+}
+
+.card p{
+    color: #073d6b;
+    font-weight: 100;
+    margin-left: 20px;
+    margin-top: 2px;
+}
+
+.card img {
+    height: 220px;
+    width: 193px;
+}
+
+#contact{
+    height:150vh;
+    background: url(roof.jpg);
+    background-size:cover;
+    opacity: 1;
+}
+
+.contact{
+    height: 70%;
+    background-color: rgba(4, 43, 102, 0.5);
+    width: 40%;
+    display: flex;
+    justify-content: end;
+}
+
+.contact-out{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(9, 46, 100, 0.8);
+    display: flex;
+}
+
+.contact h2{
+    font-size: 42px;
+    width: 200px;
+    color: white;
+    font-weight: 100;
+    margin-top: 160px;
+    margin-right: 100px;
+}
+
+.contact-data p ,.contact-data a,.fo{
+    color: white;
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+.contact-data{
+    margin-top: 160px;
+}
+
+.lname{
+    margin-left: 200px;
+}
+
+.name{
+    width: 250px;
+    height: 40px;
+    margin-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 15px;
+    background-color:rgb(42, 119, 207);
+    border:1px  white solid;
+    transition: 0.2s ease-in 0s;
+    /* padding: 8px 12px; */
+}
+
+
+.lab{
+    margin-top: 10px;
+}
+
+.e-inp,.s-inp{
+    width: 557px;
+    height: 40px;
+    margin-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 15px;
+    background-color:rgb(42, 119, 207);
+    border:1px  white solid;
+    transition: 0.2s ease-in 0s;
+    /* padding: 8px 12px; */
+}
+
+.m-inp{
+    width: 557px;
+    height: 100px;
+    margin-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 15px;
+    background-color:rgb(42, 119, 207);
+    border:1px  white solid;
+    transition: 0.2s ease-in 0s;
+    /* padding: 8px 12px; */
+}
+
+.btn{
+    width: 598px;
+    height: 40px;
+    margin-top: 5px;
+    font-size:17px;
+    background-color: rgb(21, 71, 145);
+    border: 1px white solid;
+    color: white;
+    transition: 0.2s ease-in 0s;
+}
+
+.btn:hover{
+    border: 1px gray solid;
+    background-color: #00305B;
+}
+
+
+.name:hover,.e-inp:hover,.m-inp:hover,.s-inp:hover{
+    background-color: rgb(83, 83, 48,0);
+    border: 1px  rgb(33, 236, 33) solid;
+}
+
+.back{
+    height: 13vh;
+    background-color: #00305B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+.backicon a{
+    color: white;
+    text-decoration: none;
+}
+
+.foot{
+    height: 13vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+.icon {
+    position: relative;
+    width: 50px; /* Adjust as needed */
+    height: 50px; /* Adjust as needed */
+    background-color: white;
+    transform: rotate(45deg);
+    margin-right: 10px;
+  }
+  
+  .triangle-top {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 2px solid transparent;
+    border-bottom: 25px solid #4BBECF; /* Light blue color */
+  }
+  
+  .triangle-bottom {
+    position: absolute;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 25px solid #003459; /* Dark blue color */
+  }
+  
+
+  .icon-arrange{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
